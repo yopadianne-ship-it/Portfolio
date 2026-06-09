@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mon Portfolio</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Ouvrir le menu">
+                ☰
+            </button>
+
+            <ul id="nav-links">
+               <li><a href="#apropos">À propos</a></li>
+               <li><a href="#projets">Projets</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Section À propos -->
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+
+            <div class="about-content">
+                <img src="images/photo.jpg" alt="Photo de profil">
+
+                <div class="about-text">
+                    <p>
+                       Bonjour, je suis un développeur Front-End junior basé à Douala, passionné par la création d'interfaces web modernes, performantes et centrées sur l'utilisateur.
+
+Curieux et toujours en apprentissage, je m'intéresse particulièrement à l'écosystème JavaScript ainsi qu'aux technologies qui permettent de concevoir des expériences numériques fluides et intuitives. J'utilise principalement HTML, CSS et JavaScript pour transformer des idées en applications web fonctionnelles et esthétiques.
+
+Mon objectif est de développer des solutions accessibles, responsives et optimisées tout en continuant à renforcer mes compétences à travers des projets concrets et les bonnes pratiques du développement web moderne.
+
+Lorsque je ne code pas, j'explore les nouvelles tendances du web, les frameworks JavaScript et les outils qui façonnent l'avenir du développement Front-End. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projets">
+            <h2>Mes Projets</h2>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+                    <img src="images/shop.jpg" alt="TeslaShop" class="projet-img">
+                    <h3>TeslaShop</h3>
+                    <p>
+                        TeslaShop est une plateforme e-commerce moderne conçue pour offrir une expérience d'achat simple et agréable. Le projet intègre un catalogue de produits dynamique, un panier d'achat interactif et une interface responsive adaptée à tous les appareils. L'accent a été mis sur l'ergonomie, les performances et la facilité de navigation afin d'optimiser l'expérience utilisateur.
+                    </p>
+                    <a href="#">Voir le projet</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/alarm.jpg" alt="TesAlarm" class="projet-img">
+                    <h3>TesAlarm</h3>
+                    <p>
+                        TesAlarm est une application web permettant de programmer et gérer plusieurs alarmes de manière intuitive. Les utilisateurs peuvent définir des horaires personnalisés, activer ou désactiver leurs alarmes en un clic et recevoir des notifications au moment prévu. Ce projet met en pratique la manipulation du temps, les événements JavaScript et la gestion dynamique de l'interface utilisateur.
+                    </p>
+                    <a href="#">Voir le projet</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/blog.jpg" alt="TesBlog Clone" class="projet-img">
+                    <h3>TesBlog Clone</h3>
+                    <p>
+                       TesBlog Clone est une reproduction moderne d'une plateforme de blog mettant en avant la lecture et le partage de contenus. Le projet comprend une page d'accueil avec liste d'articles, des pages de détail et une mise en page responsive. Son objectif est de démontrer la maîtrise de la structuration HTML, du design responsive et de l'organisation d'une interface inspirée des blogs professionnels actuels.
+                    </p>
+                    <a href="#">Voir le projet</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="nom">Nom complet</label>
+                    <input
+                        type="text"
+                        id="nom"
+                        name="nom"
+                        placeholder="Votre nom complet"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Votre adresse email"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Votre message"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">
+                    Envoyer
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Mon Portfolio. Tous droits réservés.
+                Email : alyassinn5@gmail.com <br>
+               contact : 688494487 /671536478
+        </p>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
